@@ -1,38 +1,117 @@
-.App {
+
+
+body {
+  background:url('https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  /* min-height: 500px; */
+  height: 300vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header {
+  color: #ffffff;
+  padding: 10px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.72);
+  height: 100vh;
+  /* border: 3px solid orchid; */
+
+}
+
+.section {
+  padding: 30px;
   text-align: center;
+  background-color: black;
+  color: rgb(29, 27, 27);
+  border: 3px solid chocolate;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#header-p {
+  font-size: 3.5em;
+  /* color: white; */
+  font-weight: 700;
+  margin: auto;
+  margin-top: 20%;
+  /* border: 2px solid orange; */
+  background-color: chocolate;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 25%;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color:black;
+  opacity: .6;
+  display: flex;
+position: fixed;
+}
+
+#header-home {
+  /* border: 2px solid green; */
+  width: 60%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#header-home a {
+text-decoration: none;
+color: white;
+}
+
+#header-home a::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  transform: scale(0);
+  transition: ease-in-out 300ms;
+}
+
+
+#header-home a:hover::after {
+  transform: scale(1);
+
+}
+
+
+#header-rt-side {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+}
+
+
+#header-rt-side a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+#header-rt-side a::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  transform: scale(0);
+  transition: ease-in-out 300ms;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#header-rt-side a:hover::after {
+  transform: scale(1);
+
+}
+
+p {
+padding: 2%;
+color: white;
 }
