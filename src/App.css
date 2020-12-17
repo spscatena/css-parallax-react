@@ -22,7 +22,7 @@ header {
 }
 
 .section {
-  padding: 30px;
+    padding: 30px;
   text-align: center;
   background-color: black;
   color: rgb(29, 27, 27);
@@ -31,15 +31,18 @@ header {
 }
 
 #header-p {
-  font-size: 3.5em;
+  display: flex;
+  font-size: 4vw;
+  /* text-align: center; */
   /* color: white; */
-  font-weight: 700;
+  /* font-weight: 7em; */
   margin: auto;
-  margin-top: 20%;
+  margin-top: 40vh;
+  padding-left: 6%;
   /* border: 2px solid orange; */
   background-color: chocolate;
-  align-items: center;
-  width: 25%;
+  /* align-items: center; */
+  width: 30vw;
 }
 
 nav {
@@ -56,7 +59,7 @@ position: fixed;
   width: 60%;
   display: flex;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 2vw;
 }
 
 #header-home a {
@@ -86,7 +89,7 @@ color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 1.5em;
+  font-size: 2vw;
 }
 
 
@@ -114,4 +117,14 @@ color: white;
 p {
 padding: 2%;
 color: white;
+font-size: 1vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+  
+
+
+
 }
